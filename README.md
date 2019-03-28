@@ -1,23 +1,34 @@
 # 2019-internship-starter
 
-Starter project for 2019 internship candidates
+## Introduction
 
-## Installation steps
+Complete this NodeJS application so that it generates a sequence of [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number) numbers, and correctly formats a multiplication table of these numbers. Parts of the application are already written, you should complete the tasks and make sure all tests pass.
 
-1. Have NodeJs v11 installed on your computer see https://nodejs.org/en/
-2. Take a personal fork of this repository
-3. Download the repository to your computer
-4. Open a terminal in the repository, e.g `c:\github\2019-internship-starter`
+## Tasks to complete
+
+This application comes with a set of tests. Some tests are passing and others are failing. Your job will be to get the failing tests to pass by writing your algorithm(s) and running the tests until each of the tests is passing.
+
+Here are the algorithms you'll need to implement:
+
+1. Generate a sequence of Fibonacci numbers - This should be done in the file: `fibonacci.js`.
+2. Format the multiplication table output to align the numbers evenly, accounting for numbers having different numbers of digits - This should be done in the file `tableFormatter.js`.
+
+## Installing, Running, and Submitting the Starter Application
+
+### Installing the Starter Application
+
+1. Install [NodeJs v11](https://nodejs.org/en/) on your computer.
+2. Take a personal fork of this repository.
+3. Download the repository to your computer, e.g `C:\github\2019-internship-starter`.
+4. Open a terminal in the repository, e.g `C:\github\2019-internship-starter`
 5. Run the command `npm i` to install dependencies
-6. Run the comment `npm test` to run the tests
-7. Run the command `npm start -- --number 5` to run the program with an output of 5 numbers
 
-## Jobs to be done
+### Running the Application 
 
-You have a few jobs to be done to complete this program. We've added some tests that are skipped - you can identify these in the test files with the `xtest`. To make these tests run, remove the `x` and run the command `npm test` to make the tests run, and fail.
+1. Open a terminal in the repository, e.g `C:\github\2019-internship-starter`
+2. Run the comment `npm test` to run the tests
+3. Run the command `npm start -- --number 5` to run the program with an output of 5 numbers
 
-Your jobs are below, the tests are there to help you, and feel free to add more.
+### Submitting the Starter Application
 
-1. Implement an algorithm to generate a sequence of fibonacci numbers - see `fibonacci.js`
-2. Implement an algorithm to properly format the table output to take account of padding - see `tableFormatter.js`
-3. Optional: Implement further functions `power` and `add` within the `tableMaker.js` to give further options for table creation
+TO ADD 
