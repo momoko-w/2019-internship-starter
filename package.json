@@ -1,0 +1,25 @@
+{
+  "name": "2019-internship-starter",
+  "version": "1.0.0",
+  "description": "Starter project for 2019 internship candidates",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/findmypast-oss/2019-internship-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/findmypast-oss/2019-internship-starter/issues"
+  },
+  "homepage": "https://github.com/findmypast-oss/2019-internship-starter#readme",
+  "dependencies": {
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
