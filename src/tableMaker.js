@@ -11,16 +11,6 @@ function multiplication(list) {
   return matrix;
 }
 
-function power(list) {
-  throw "Not Implemented";
-}
-
-function add(list) {
-  throw "Not Implemented";
-}
-
 module.exports = {
-  multiplication,
-  power,
-  add
+  multiplication
 };

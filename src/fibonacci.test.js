@@ -9,6 +9,6 @@ test("getSequence of 10 returns first 10 of fibonacci", () => {
 });
 
 test("getSequence of 20 returns first 20 of fibonacci", () => {
-  const twentythElement = getSequence(20)[19];
-  expect(twentythElement).toEqual(6765);
+  const twentiethElement = getSequence(20)[19];
+  expect(twentiethElement).toEqual(6765);
 });
