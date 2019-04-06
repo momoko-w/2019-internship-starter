@@ -1,5 +1,5 @@
 function getSequence(n) {
-  // TODO: Generate a sequence of Fibonacci numbers
+  // Generate a sequence of Fibonacci numbers
   var fibNumbers = [1], intNew = 1, intOld = 0, intZ, i;
 
   //loop through to calculate sequence
@@ -13,7 +13,6 @@ function getSequence(n) {
     fibNumbers.push(intNew);
 
   }
-  //console.log(fibNumbers)
   return fibNumbers;
 }
 

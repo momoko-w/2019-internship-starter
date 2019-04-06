@@ -1,9 +1,8 @@
 //Format the multiplication table output to align the numbers evenly, accounting for numbers having different numbers of digits
 
-//Note: table variable passed in is 2D array of rows
 function format(table) {
 
-  var stringRow = []; //since "row" is array of numbers
+  var stringRow = []; //added for clarity, since "row" is array of numbers
 
   //get value of last row and last column in the table -> greatest ("longest") number in table
   var longNum = table[table.length-1][table.length-1];
@@ -27,7 +26,7 @@ function format(table) {
       stringRow[i] = value;
     }
 
-    return stringRow.join(" ");   
+    return stringRow.join(" ");
   });
 
   return "\n" + tableText.join("\n") + "\n";
